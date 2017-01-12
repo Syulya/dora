@@ -1,0 +1,18 @@
+{
+  "name": "eudora",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "syul"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
