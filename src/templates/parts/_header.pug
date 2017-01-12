@@ -1,13 +1,7 @@
 +b.header
-	.container
-		.row
-			.col-lg-6
-				+b.logo
-					+e.image
-						img(src="./images/logo.png", alt="")
-					+e.title Eudora
-			.col-lg-6
-				+b.A.search(href="#")
-					+e.title Поиск по сайту
-					+e.icon
-						i.fa.fa-search
+	+b.IMG.big(src="./img/header-photo.png", alt="")
+	+b.title._header Eudora is simple psd template
+		+e.text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	+b.btn._white-border
+		+e.P.A(href="#") Learn more
+	include _menu

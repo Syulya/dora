@@ -92,15 +92,15 @@ gulp.task('js:build', function() {
 gulp.task('images',function(){
 	gulp.src(path.src.images)
 		.pipe($.newer(path.src.images))
-		.pipe($.imagemin({
-			progressive: true,
-			svgoPlugins: [{removeViewBox: false}],
-			use: [pngquant()],
-			interlaced: true,
-			options: {
-					cache: true
-			}
-		}))
+		// .pipe($.imagemin({
+		// 	progressive: true,
+		// 	svgoPlugins: [{removeViewBox: false}],
+		// 	use: [pngquant()],
+		// 	interlaced: true,
+		// 	options: {
+		// 			cache: true
+		// 	}
+		// }))
 		.pipe(gulp.dest(path.build.images));
 })
 
